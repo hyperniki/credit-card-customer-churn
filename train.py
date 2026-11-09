@@ -74,7 +74,7 @@ def main():
                         (
                             "ordinal",
                             OrdinalEncoder(
-                                categories=[["BLue", "Silver", "Gold", "Platinum"]],
+                                categories=[["Blue", "Silver", "Gold", "Platinum"]],
                                 handle_unknown="use_encoded_value",
                                 unknown_value=-1,
                             ),
